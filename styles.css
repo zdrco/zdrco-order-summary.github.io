@@ -1,0 +1,127 @@
+body {
+    background-color: hsl(225, 100%, 94%);
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+
+.card  {
+    position: relative;
+    width: 500px;
+    background-color: white;
+    height: 750px;
+    margin: -540px auto 50px auto;
+    border-radius: 20px;
+    box-shadow: 1px 20px 20px hsl(225, 100%, 89%);
+
+}
+
+.pattern {
+    width: 100%;
+    height: 100%;
+}
+
+.banner {
+    width: 500px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.payment {
+    margin-bottom: 50px;
+    background-color: hsl(225, 100%, 98%) ;
+    width: 340px;
+    border-radius: 15px;
+    height: 60px;
+    padding: 20px 30px;
+    display: flex;
+}
+
+.content {
+    padding: 20px 50px;
+}
+
+.intro {
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    color: hsl(224, 23%, 55%);
+}
+
+.annual {
+    color: hsl(223, 47%, 23%);
+   
+}
+
+h1 {
+    color: hsl(223, 47%, 23%);
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin: auto 0;
+}
+
+.text {
+    margin-left: 20px;
+    margin-top: -5px;
+    line-height: 8px;
+    
+}
+
+.change {
+    font-weight: bold;
+    color:hsl(245, 68%, 40%);
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.change:hover {
+    opacity: 0.7;
+}
+
+nav {
+    text-align: center;
+}
+
+.pay {
+    font-size: 18px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+    width: 400px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border: 0.1rem solid hsl(245, 68%, 40%);
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 40px;
+    box-shadow: 1px 20px 20px hsl(225, 100%, 85%);
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.pay:hover {
+    opacity: 0.7;
+}
+
+.cancel {
+    font-size: 18px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+    color: hsl(223, 47%, 23%);
+    opacity: 0.6;
+    background-color: white;
+    border: 0.1rem solid white;
+    border-radius: 15px;
+    width: 200px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.cancel:hover {
+    opacity: 1;
+}
